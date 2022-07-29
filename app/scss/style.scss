@@ -135,12 +135,37 @@
     .order__title__one {
         font-size: 39px;
         font-weight: 700;
-        max-width: 526px;
+        max-width: 457px;
         text-align: center;
 
         .order__one {
-            color:#ffea00;
-            text-decoration: underline;
+            color: #ffea00;
+            border-bottom:solid 4px #ffea00;
+        }
+    }
+
+    .order__title__two {
+        font-size: 24px;
+        max-width: 398px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .order__title__three, .order__title__four {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .order__title__five {
+        display: flex;
+        align-items: center;
+        & ul {
+            list-style-type: none;
+            font-size: 16px;
+        }
+
+        & ul li:first-child {
+            font-weight: 700;
         }
     }
 }
