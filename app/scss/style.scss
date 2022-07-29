@@ -121,6 +121,30 @@
 
 }
 
+.order {
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    .order__title__one {
+        font-size: 39px;
+        font-weight: 700;
+        max-width: 526px;
+        text-align: center;
+
+        .order__one {
+            color:#ffea00;
+            text-decoration: underline;
+        }
+    }
+}
+
 
 
 
