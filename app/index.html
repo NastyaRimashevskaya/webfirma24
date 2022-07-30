@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб-студия Вебфирма24, опытнейший разработчик интернет-сайтов</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <a class="logo" href="#">
-                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                    <img class="logo-img" src="images/logo.svg" alt="logo">
                 </a>
-                <nav class="menu">
-                    <button class="menu__btn">
+                <nav class="header-menu">
+                    <button class="menu-btn">
                         <span></span>
                     </button>
-                    <ul class="menu__list">
+                    <ul class="menu-list">
                         <li class="menu__list-item"><a class="menu__list-link" href="">О нас</a></li>
                         <li class="menu__list-item"><a class="menu__list-link" href="">Работы</a></li>
                         <li class="menu__list-item"><a class="menu__list-link" href="">Ттарифы</a></li>
@@ -28,51 +33,57 @@
                         <li class="menu__list-item"><a class="menu__list-link" href="">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="portfolio">
-                    <div class="portfolio__img">
+                <div class="header-portfolio">
+                    <div class="header-portfolio-img">
                         <img src="images/icon.png" alt="icon">
                     </div>
-                    <div class="portfolio_item">
-                        <span class="portfolio_item_f">Более 90 работ в портфолио</span>
-                        <span class="portfolio_item_s">Посмотреть все работы</span>
+                    <div class="header-portfolio-item">
+                        <span class="header-portfolio-item-first">Более 90 работ в портфолио</span>
+                        <span class="header-portfolio-item-second">Посмотреть все работы</span>
                     </div>
                 </div>
-                <ul class="social_icons">
-                    <li><a class="social_icon-vk" href="#" target="_blank"></a><img src="images/vk.svg" alt="vk"></li>
-                    <li><a class="social_icon-whatsapp" href="#" target="_blank"><img src="images/whatsapp.svg" alt="watsapp"></a></li>
-                    <li><a class="social_icon-telegram" href="#" target="_blank"><img src="images/tlg.svg" alt="telegram"></a></li>
-                  </ul>
-                  <div class="phone">
+                <ul class="header-social-icons">
+                    <li><a class="header-social-icon-vk" href="#" target="_blank"></a><img src="images/vk.svg" alt="vk"></li>
+                    <li><a class="header-social-icon-whatsapp" href="#" target="_blank"><img src="images/whatsapp.svg"
+                                alt="watsapp"></a></li>
+                    <li><a class="header-social-icon-telegram" href="#" target="_blank"><img src="images/tlg.svg"
+                                alt="telegram"></a></li>
+                </ul>
+                <div class="header-phone">
                     <a href="tel:+88002211254">8 (800) 221-12-54</a>
                     <a href="tel:+88002210510">8 (495) 221-05-10</a>
-                    <span class="phone__ch">Заказать звонок</span>
+                    <span class="header-phone-order">Заказать звонок</span>
                 </div>
             </div>
         </div>
-    </header>  
+    </header>
+    
     <div class="order">
         <div class="container">
-            <p class="order__title__one">Заказать <span class="order__one">создание сайта</span> под ключ</p>
-            <p class="order__title__two">Разработка сайтов для бизнеса с гарантией</p>
-            <p class="order__title__three">Разработаем не просто сайт, а реальный инструмент продаж</p>
-            <p class="order__title__four">Даем гарантию после создания и обучаем работе с сайтом</p>
-            <div class="order__title__five">
-                <ul>
-                    <li>Вы получаете:</li>
-                    <li>Надежный бизнес-инструмент</li>
-                    <li>Сайт за который не стыдно</li>
-                </ul>
-                <ul>
-                    <li>Условия работы:</li>
-                    <li>Предоплата 50% &lpar;р&frasl;с ИП&comma;rfhnf&comma;Ю&ndash;мани</li>
-                    <li>Сроки от пяти дней</li>
-                </ul>
-            </div>
-            <div class="order__button__btn">
-                <button class="button__btn">Отправить заявку</button>
+            <div class="order__inner">
+                <h1 class="order__title-one">Заказать <span class="order-one">создание сайта</span> под ключ</h1>
+                <h3 class="order__title-two">Разработка сайтов для бизнеса с гарантией</h3>
+                <h4 class="order__title-three">Разработаем не просто сайт, а реальный инструмент продаж</h4>
+                <h4 class="order__title-four">Даем гарантию после создания и обучаем работе с сайтом</h4>
+                <div class="order__title-five">
+                    <ul>
+                        <li>Вы получаете:</li>
+                        <li>Надежный бизнес-инструмент</li>
+                        <li>Сайт за который не стыдно</li>
+                    </ul>
+                    <ul>
+                        <li>Условия работы:</li>
+                        <li>Предоплата 50% &lpar;р&frasl;с ИП&comma;карта&comma;Ю&ndash;мани</li>
+                        <li>Сроки от пяти дней</li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="order__button-btn">
+            <button class="button-btn">Отправить заявку</button>
+        </div>
     </div>
-<script src="js/main.min.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
+
 </html>
